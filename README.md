@@ -12,7 +12,7 @@ In order to use Learnify, I request you to install all the folders and files on 
 </br>
 
 <img width="94" alt="image" src="https://github.com/surajiyer26/Learnify/assets/114157491/4f3d2b5d-14a8-4781-a0c8-ef28be1d5cda">
-<img width="449" alt="image" src="https://github.com/surajiyer26/Learnify/assets/114157491/28debdd1-a675-4f4b-8ade-d7bf64d8bd23">
+<img width="450" alt="image" src="https://github.com/surajiyer26/Learnify/assets/114157491/cca02aea-63f3-4dae-bc4d-4ec0038af448">
 
 </br>
 </br>
