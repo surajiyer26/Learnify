@@ -1,9 +1,7 @@
 # Learnify
-A.I. Powered E-Learning Platform
+A.I. Powered E-Learning Platform, openai API Integration (chatgpt-3.5-turbo) with Flask Web Development
 
 </br>
-
-This is for the Internship Assignment for <b>Know Wallet</b>. Where I have displayed <b>ChatGPT API Integration and Flask Web App Development</b>.
 
 Hello! Welcome to Learnify, your go-to-website whenever you're in need of study material and resources.
 
@@ -14,8 +12,7 @@ In order to use Learnify, I request you to install all the folders and files on 
 <img width="94" alt="image" src="https://github.com/surajiyer26/Learnify/assets/114157491/4f3d2b5d-14a8-4781-a0c8-ef28be1d5cda">
 <img width="450" alt="image" src="https://github.com/surajiyer26/Learnify/assets/114157491/cca02aea-63f3-4dae-bc4d-4ec0038af448">
 
-</br>
-</br>
+</br></br>
 
 Now, in order to use the openai API, you'll have to head over to the learnify.py file and <b>edit your API KEY</b> into the space provided.
 
