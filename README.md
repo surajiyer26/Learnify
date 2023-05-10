@@ -35,7 +35,7 @@ Once this is said and done, you can head over to your command prompt and <b>chan
 
 </br></br>
 
-Now you simply run learnify.py, which is the flask based application that will be protraying to you the first page of Learnify.
+Now you simply run learnify.py, which is the Flask-based application that will be portraying to you the first page of Learnify.
 
 </br>
 
@@ -43,7 +43,7 @@ Now you simply run learnify.py, which is the flask based application that will b
 
 </br></br>
 
-Now you head over to your favourite browser and type out 127.0.0.1:5000, which will lead you to your local host.
+Now you head over to your favorite browser and type out 127.0.0.1:5000, which will lead you to your local host.
 
 </br>
 
@@ -71,7 +71,7 @@ You are requested to enter the topic or a subject you are interested in, Algorit
 
 Once you're done, you simply <b>hit 'Learn'.</b>
 
-What now happens is, the input from the form gets handed over to a function that I have explicitly written for making the API call. This function imports openai, and using the API KEY, starts a coversation with ChatGPT. In our case, we are asking ChatGPT to frame 'n' number of questions, and their answers on the prompt given to us by the user. 
+What now happens is, the input from the form gets handed over to a function that I have explicitly written for making the API call. This function imports openai, and using the API KEY, starts a conversation with ChatGPT. In our case, we are asking ChatGPT to frame 'n' number of questions, and their answers on the prompt given to us by the user. 
 
 The response given back to use by ChatGPT is then sliced and diced using Python into a manner which is useful to us, which happens to be a list of dictionaries, resembling the JSON text architecture.
 
@@ -85,4 +85,4 @@ This response is then sent to an HTML page which finally displays all the questi
 
 </br></br>
 
-<b>Thankyou for visiting Learnify, this had been its implementation so far. I am working on adding further features such as quizzes and textbook links to it, as well as incorporating Google Maps API to display the location of nearby libraries for the user.</b>
+<b>Thank you for visiting Learnify, this had been its implementation so far. I am working on adding further features such as quizzes and textbook links to it, as well as incorporating Google Maps API to display the location of nearby libraries for the user.</b>
