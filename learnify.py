@@ -54,7 +54,7 @@ class LoginForm(FlaskForm):
 
 def question_bank (input):
     import openai
-    API_KEY = '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'
+    API_KEY = 'YOUR_API_KEY'
     openai.api_key = API_KEY
     model_id = 'gpt-3.5-turbo'
     n = '10'
@@ -77,7 +77,7 @@ def question_bank (input):
 
 def resource (input):
     import openai
-    API_KEY = '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'
+    API_KEY = 'YOUR_API_KEY'
     openai.api_key = API_KEY
     model_id = 'gpt-3.5-turbo'
     n = '10'
@@ -93,7 +93,7 @@ def resource (input):
 
 def library ():
     import openai
-    API_KEY = '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'
+    API_KEY = 'YOUR_API_KEY'
     openai.api_key = API_KEY
     model_id = 'gpt-3.5-turbo'
     n = '10'
