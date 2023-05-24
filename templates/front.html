@@ -1,0 +1,147 @@
+<body>
+
+    <link rel="stylesheet" href="homepage.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <div class="homepage">
+    <div><button class="logo">Learnify!</button></div>
+        <form action='/home' method="post">
+
+          <input type="text" id="input" name="input" placeholder = "What do you want to learn today?">
+          <input type="submit" value="Learn" id="learn">
+
+         <div class="loading">
+         <div class="loading-circle"></div>
+         </div>
+
+        </form>
+        </div>
+
+        </body>
+
+        <style>
+
+        .loading {
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: transparent;
+        z-index: 9999;
+        }
+
+        .loading-circle {
+        margin-left:auto;
+        margin-right:200px;
+        margin-top: 10%;
+        border: 10px solid #f3f3f3;
+        border-top: 10px solid #3498db;
+        border-radius: 50%;
+        width: 80px;
+        height: 80px;
+        animation: spin 2s linear infinite;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        }
+
+        @keyframes spin {
+        0% {
+            transform: rotate(0deg);
+        }
+        100% {
+            transform: rotate(360deg);
+        }
+        }
+
+        body {
+        min-height: 100vh;
+        background-color:#181818;
+        margin: 0 auto;
+        }
+
+        .homepage{
+        text-align:center;
+        margin-top:100px;
+         }
+
+        form{
+            text-align:center;
+            margin-top:10px;
+            font-size: 20px;
+            position: relative;
+            padding:10px;
+            }
+
+        #input{
+        display: inline-block;
+        border-radius: 20px;
+        border: 1px solid;
+        width: 700px;
+        padding: 10px;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 20px;
+        margin-top: 10px;
+        background-color:#f7fbfc;
+        }
+
+        #learn{
+        background-color: #68c1f5;
+        border: none;
+        border-radius: 20px;
+        font-size: 20px;
+        padding: 8px;
+        z-index:2;
+        }
+        #learn:hover{
+        color:#ffffff;}
+
+       .logo{
+        margin-left:auto;
+        margin-right:auto;
+        text-decoration: none;
+        color:#68c1f5;
+        font-weight: 300;
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: 900;
+        background-color:#01165b;
+        border-radius: 10px;
+        padding: 10px;
+        font-size: 85px;
+        margin-top: 100px;
+        border:none;
+
+        width: 13ch;
+        border-right: 5px solid #68c1f5;
+        margin: 2rem auto;
+        white-space: nowrap;
+        overflow: hidden;
+
+        animation: typing 2s steps(13, end), blink-caret 0.5s step-end infinite alternate;
+        text-shadow: 2px 3px 3px hsl(209, 100%, 50%);
+
+        }
+        @-webkit-keyframes typing {
+            from {
+                width: 0;
+            }
+        }
+        @-webkit-keyframes blink-caret {
+            50% {
+                border-color: transparent;
+            }
+        }
+
+        .logo:hover{
+        background-color:#68c1f5;
+        color: #01165b;
+        transform: scale(1.02)
+        text-shadow: none;
+
+        }
+
+         </style>

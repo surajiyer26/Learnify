@@ -1,0 +1,17 @@
+{%extends 'layout.html'%}
+{%block content%}
+  {%for post in posts%}
+  <article class="media content-section">
+    <div class="media-body">
+      <!-- <h2><a class="article-title">{{ post.question }}</a></h2> -->
+      <p class="article-content">{{ post }}</p>
+      <br/><br/>
+    </div>
+    <style>
+      h2{
+        color: rgb(182, 223, 252);
+      }
+    </style>
+  </article>
+  {%endfor%}
+{%endblock content%}
